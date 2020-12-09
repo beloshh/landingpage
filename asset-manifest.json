@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/landingpage/static/css/main.64c4377c.chunk.css",
+    "main.js": "/landingpage/static/js/main.a200b674.chunk.js",
+    "main.js.map": "/landingpage/static/js/main.a200b674.chunk.js.map",
+    "runtime-main.js": "/landingpage/static/js/runtime-main.4bd23e60.js",
+    "runtime-main.js.map": "/landingpage/static/js/runtime-main.4bd23e60.js.map",
+    "static/js/2.02d32bdd.chunk.js": "/landingpage/static/js/2.02d32bdd.chunk.js",
+    "static/js/2.02d32bdd.chunk.js.map": "/landingpage/static/js/2.02d32bdd.chunk.js.map",
+    "index.html": "/landingpage/index.html",
+    "precache-manifest.02f134e133f0a763f2fe4443cd4f94e1.js": "/landingpage/precache-manifest.02f134e133f0a763f2fe4443cd4f94e1.js",
+    "service-worker.js": "/landingpage/service-worker.js",
+    "static/css/main.64c4377c.chunk.css.map": "/landingpage/static/css/main.64c4377c.chunk.css.map",
+    "static/js/2.02d32bdd.chunk.js.LICENSE.txt": "/landingpage/static/js/2.02d32bdd.chunk.js.LICENSE.txt",
+    "static/media/bg-curve-desktop.svg": "/landingpage/static/media/bg-curve-desktop.ff14250e.svg",
+    "static/media/icon-arrow.svg": "/landingpage/static/media/icon-arrow.e9fdc104.svg",
+    "static/media/icon-email.svg": "/landingpage/static/media/icon-email.f0f5b24a.svg",
+    "static/media/icon-phone.svg": "/landingpage/static/media/icon-phone.47e54a44.svg",
+    "static/media/icon-quotes.svg": "/landingpage/static/media/icon-quotes.a51e6880.svg",
+    "static/media/illustration-1.svg": "/landingpage/static/media/illustration-1.b54a6971.svg",
+    "static/media/illustration-2.svg": "/landingpage/static/media/illustration-2.13d8305b.svg",
+    "static/media/logo-footer.svg": "/landingpage/static/media/logo-footer.c71bf7bf.svg",
+    "static/media/logo.svg": "/landingpage/static/media/logo.0786a620.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4bd23e60.js",
+    "static/js/2.02d32bdd.chunk.js",
+    "static/css/main.64c4377c.chunk.css",
+    "static/js/main.a200b674.chunk.js"
+  ]
+}
