@@ -1,0 +1,493 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Raleway", sans-serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.display-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper {
+  width: 80%;
+  max-width: 1350px;
+  margin: auto;
+}
+
+header .container {
+  padding-top: 40px;
+}
+
+header .container img {
+  width: 150px;
+}
+
+nav ul li a {
+  font-family: "Raleway", sans-serif;
+  padding-left: 30px;
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  color: hsl(243, 87%, 12%);
+}
+
+.banner {
+  margin: 80px auto 150px auto;
+}
+
+.banner .txt {
+  width: 50%;
+  padding-right: 20px;
+}
+
+.banner .txt h1 {
+  font-size: 2.3em;
+  color: hsl(243, 87%, 12%);
+  max-width: 550px;
+}
+
+.banner .txt p {
+  padding: 20px 0px;
+  font-size: 1.1em;
+  color: hsl(243, 88%, 35%);
+}
+
+.banner img {
+  width: 50%;
+}
+
+.banner .txt input[type="email"] {
+  width: 55%;
+  border: 1px hsl(243, 87%, 12%) solid;
+  padding: 10px;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 3px;
+  outline: none;
+}
+
+.banner .txt button[type="submit"] {
+  width: 30%;
+  margin-left: 20px;
+  padding: 12px 20px;
+  color: #fff;
+  background: hsl(224, 93%, 58%);
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 2px 2px 7px 0px #3c363678;
+}
+
+.wave img {
+  width: 100%;
+  margin-bottom: -5px;
+}
+
+.productive {
+  background-color: #f8f8fe;
+  padding: 0px 0px 100px 0px;
+}
+
+.productive .txt h2 {
+  font-size: 2.3em;
+  color: hsl(243, 87%, 12%);
+  margin-bottom: 10px;
+}
+
+.productive .txt p {
+  padding: 10px 0px;
+  font-size: 1em;
+  color: hsl(243, 87%, 12%);
+  max-width: 600px;
+}
+
+.productive .txt .arrow {
+  justify-content: flex-start;
+  border-bottom: 1px solid hsl(170, 45%, 43%);
+  width: 185px;
+}
+
+.productive .txt .arrow a {
+  font-family: "Open Sans", sans-serif;
+  color: #000;
+  padding-right: 10px;
+  color: hsl(170, 45%, 43%);
+}
+
+.productive .txt .arrow img {
+  width: 25px;
+  margin-left: 0px;
+}
+
+.testimony {
+  padding: 20px;
+  background: #fff;
+  margin-top: 40px;
+  width: 360px;
+  box-shadow: 2px 2px 7px 0px #4747471f;
+}
+
+.testimony .txt p {
+  font-size: 0.85em;
+  line-height: 1.8;
+  color: hsl(238, 22%, 44%);
+}
+
+.testimony .txt img {
+  width: 18px;
+  margin-left: 0px;
+}
+
+.testimony .user {
+  justify-content: flex-start;
+}
+
+.testimony .user .txt {
+  margin-left: 10px;
+}
+
+.testimony .user h4 {
+  font-size: 0.8em;
+  margin-bottom: 4px;
+  color: hsl(238, 22%, 44%);
+}
+
+.testimony .user p {
+  font-size: 0.7em;
+  padding: 0px;
+  color: hsl(238, 22%, 44%);
+}
+
+.testimony .user img {
+  border-radius: 100%;
+  width: 50px;
+  margin-left: 0px;
+}
+
+.productive img {
+  width: 45%;
+  margin-left: 40px;
+}
+
+.Get {
+  background: hsl(238, 22%, 44%);
+  color: #fff;
+  padding: 80px 0px;
+}
+
+.Get .container .txt {
+  width: 37%;
+}
+
+.Get .container .txt h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: hsl(240, 75%, 98%);
+}
+
+.Get .container .txt p {
+  font-size: 1em;
+  line-height: 1.5em;
+  font-weight: lighter;
+  color: hsl(240, 75%, 98%);
+}
+
+.boletin {
+  width: 40%;
+}
+
+.Get .boletin input[type="email"] {
+  width: 100%;
+  border: none;
+  padding: 15px;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 3px;
+}
+
+.Get .boletin input[type="email"]:focus {
+  outline: none;
+}
+
+.Get .boletin button[type="submit"] {
+  width: 250px;
+  padding: 15px 20px;
+  margin-top: 10px;
+  color: #fff;
+  background: hsl(224, 93%, 58%);
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px #3c363678;
+}
+
+footer {
+  background: hsl(243, 87%, 12%);
+  padding: 60px 0px;
+}
+
+footer img {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+footer .container {
+  align-items: flex-start;
+  color: #fff;
+}
+
+footer .container img {
+  width: 18px;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 0;
+}
+
+footer .container .column .email {
+  margin-top: 6px;
+}
+
+footer a {
+  font-family: "Open Sans", sans-serif;
+}
+
+footer i {
+  margin-right: 8px;
+}
+
+footer ul li {
+  padding: 8px 0px;
+}
+
+footer i {
+  font-size: 1em;
+  border: #fff 1px solid;
+  padding: 10px 8px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.attribution {
+  text-align: center;
+}
+a {
+  color: purple;
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  header .container img {
+    width: 120px;
+  }
+
+  nav ul li a {
+    font-size: 1em;
+  }
+
+  .banner .txt h1,
+  .productive .txt h2,
+  .Get .container .txt h2 {
+    font-size: 1.5em;
+  }
+
+  .productive .txt h2 {
+    padding-top: 10px;
+  }
+
+  .banner .txt p,
+  .productive .txt p,
+  .Get .container .txt p {
+    font-size: 0.9em;
+  }
+
+  .productive .txt .arrow a {
+    font-size: 0.9em;
+  }
+
+  .testimony .txt p {
+    font-size: 0.8em;
+  }
+
+  .Get .boletin button[type="submit"] {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  header .container img {
+    width: 100px;
+  }
+
+  nav ul li a {
+    font-size: 1em;
+    padding-left: 15px;
+  }
+
+  .banner {
+    height: 100vh;
+    margin-top: 50px;
+    margin: 50px auto 100px auto;
+  }
+
+  .banner .container {
+    flex-direction: column-reverse;
+  }
+
+  .banner img {
+    padding-bottom: 25px;
+    width: 100%;
+  }
+
+  .banner .container .txt {
+    padding-right: 0px;
+  }
+
+  .banner .container .txt h1 {
+    margin: auto;
+  }
+
+  .banner .container .txt {
+    text-align: center;
+    width: 100%;
+  }
+
+  .banner .txt input[type="email"] {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+  }
+
+  .banner .txt button[type="submit"] {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 15px;
+    font-size: 0.9em;
+  }
+
+  .productive .container {
+    flex-direction: column-reverse;
+  }
+
+  .productive img {
+    width: 100%;
+    padding-top: 30px;
+    margin: 40px auto;
+  }
+
+  .productive .container .txt h2 {
+    text-align: center;
+  }
+
+  .banner .container .txt {
+    text-align: center;
+  }
+
+  .productive .txt .arrow {
+    margin: auto;
+  }
+
+  .productive .txt .arrow img {
+    margin: 0px auto;
+    padding-top: 0px;
+  }
+
+  .productive .testimony {
+    margin: 30px auto auto auto;
+  }
+
+  .productive .testimony img {
+    margin: 0px;
+    padding-top: 0px;
+  }
+
+  .Get .container {
+    flex-direction: column;
+  }
+
+  .Get .container .txt {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .Get .container .txt h2 {
+    margin-bottom: 15px;
+  }
+
+  .Get .boletin {
+    width: 100%;
+  }
+
+  .Get .boletin input[type="email"] {
+    font-size: 0.9em;
+  }
+
+  .Get .boletin button[type="submit"] {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 0.9em;
+  }
+
+  footer .container {
+    flex-direction: column;
+  }
+
+  footer .container .column {
+    margin-top: 15px;
+    width: 100%;
+  }
+
+  footer img {
+    width: 100px;
+  }
+
+  footer .redes {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .productive .testimony {
+    width: 100%;
+  }
+
+  header .container img {
+    width: 80px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .productive .txt h2 {
+    font-size: 1.1em;
+  }
+}
